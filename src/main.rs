@@ -32,6 +32,6 @@ async fn main() {
     let url = "https://g1.globo.com/";
 
     if let Err(e) = fetch_news(url).await {
-eprintln!("Erro ao buscar novas notícias, tente novamente... {}", e);        
+eprintln!("Erro ao buscar novas notícias, tente novamente! {}", e);        
     }
 }
